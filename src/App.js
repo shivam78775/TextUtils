@@ -31,7 +31,7 @@ setTimeout(() => {
 const toogleMode = ()=>{
   if(mode==='light'){
     setMode('dark');
-    document.body.style.backgroundColor="#143769";
+    document.body.style.backgroundColor="#121212";
     document.body.style.color="white"
     showAlert(": The Dark Mode is enabled","success")
   }
